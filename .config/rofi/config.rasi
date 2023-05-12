@@ -1,0 +1,9 @@
+configuration {
+  show-icons: true;
+  icon-theme: "oomox-gruvbox-dark";
+  cycle: true;
+  disable-history: false;
+  modi: "drun";
+  display-drun: "apps";
+}
+@import "~/.config/rofi/themes/gruvbox-dark.rasi"
