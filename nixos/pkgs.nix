@@ -1,0 +1,22 @@
+ environment.systemPackages = [
+    pkgs.xfce.thunar
+    pkgs.sublime4
+    pkgs.nitrogen
+    pkgs.lxappearance
+    pkgs.flameshot
+    pkgs.neovim
+    pkgs.obsidian
+    pkgs.htop
+    pkgs.neofetch
+    pkgs.pulseaudio
+    pkgs.pulseaudio-ctl
+    pkgs.pavucontrol
+    pkgs.google-chrome
+    pkgs.rofi
+    pkgs.gnome.cheese
+    pkgs.vlc
+    pkgs.python311
+    pkgs.nodejs_20
+    pkgs.xarchiver
+    pkgs.unzip
+  ];
