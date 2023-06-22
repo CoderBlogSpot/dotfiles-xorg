@@ -65,7 +65,7 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-	{ run_command, "^c#b8bb26^[VOL: %s] ", "echo $(full=\"$(pulseaudio-ctl full-status)\";level=${full% *};if [[ \"${level#* }\" == \"yes\" ]];then echo \"--%\";else echo \"${level% *}%\";fi)" },
-	{ battery_perc, "^c#fabd2f^[BAT: %s%] ", "BAT1" },
-	{ datetime, "^c#458588^[DT: %s]", "%a, %B %d %l:%M %p" },
+	{ run_command, "^c#E5C07B^[VOL: %s] ", "echo $(full=\"$(pactl full-status)\";level=${full% *};if [[ \"${level#* }\" == \"yes\" ]];then echo \"--%\";else echo \"${level% *}%\";fi)" },
+	{ battery_perc, "^c#98C379^[BAT: %s%] ", "BAT1" },
+	{ datetime, "^c#E06C75^[DT: %s]", "%a, %B %d %l:%M %p" },
 };
