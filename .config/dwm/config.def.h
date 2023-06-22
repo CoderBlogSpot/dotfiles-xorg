@@ -16,8 +16,8 @@ static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
 static char normfgcolor[]           = "#bbbbbb";
 static char selfgcolor[]            = "#eeeeee";
-static char selbordercolor[]        = "#fb4934";
-static char selbgcolor[]            = "#fb4934";
+static char selbordercolor[]        = "#282C34";
+static char selbgcolor[]            = "#282C34";
 static char *colors[][3] = {
        /*               fg           bg           border   */
        [SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
@@ -25,7 +25,7 @@ static char *colors[][3] = {
    };
 
 /* tagging */
-static const char *tags[] = { "term", "web", "music", "files" };
+static const char *tags[] = { "1: [term]", "2: [web]", "3: [music]", "4: [files]" };
 
 static const Rule rules[] = {
 	/* xprop(1):
