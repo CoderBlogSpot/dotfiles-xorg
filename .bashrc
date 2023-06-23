@@ -10,8 +10,8 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias ll='ls -al --color=auto'
 alias nv='nvim'
-alias save='source ~/Documents/hacking/scripts/save_flag.sh'
-alias finish='source ~/Documents/hacking/scripts/finish_directory.sh'
+alias save='source ~/documents/hacking/scripts/save_flag.sh'
+alias finish='source ~/documents/hacking/scripts/finish_directory.sh'
 alias aptinstall='apt install --no-install-recommends'
 
 #export PATH=$PATH:$HOME/.local/bin
