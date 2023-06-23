@@ -12,7 +12,7 @@ alias ll='ls -al --color=auto'
 alias nv='nvim'
 alias save='source ~/Documents/hacking/scripts/save_flag.sh'
 alias finish='source ~/Documents/hacking/scripts/finish_directory.sh'
-#alias aptinstall='apt install --no-install-recommends'
+alias aptinstall='apt install --no-install-recommends'
 
 #export PATH=$PATH:$HOME/.local/bin
 
@@ -24,4 +24,4 @@ alias finish='source ~/Documents/hacking/scripts/finish_directory.sh'
 
 #Nord/Onedark Teme
 #PS1='[\u@\h \W]\$ '
-PS1="\[\e[33m\]Working\[\e[m\]\[\e[37m\] \[\e[m\]\[\e[32m\]in\[\e[m\]\[\e[37m\] \[\e[m\]\[\e[31m\]\w\[\e[m\]\[\e[37m\]\\$\[\e[m\]"
+PS1="\[\e[33m\] Working\[\e[m\]\[\e[37m\] \[\e[m\]\[\e[32m\]in\[\e[m\]\[\e[37m\] \[\e[m\]\[\e[31m\]\w\[\e[m\]\[\e[37m\]\\$ \[\e[m\]"
