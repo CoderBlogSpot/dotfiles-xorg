@@ -78,7 +78,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *roficmd[] = { "rofi", "-show", "drun", "-show-icons", NULL };
-static const char *termcmd[]  = { "st", NULL };
+static const char *termcmd[]  = { "kitty", NULL };
 
 /*
  * Xresources preferences to load at startup
