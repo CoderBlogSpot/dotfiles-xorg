@@ -8,15 +8,10 @@ return require('packer').startup(function(use)
 	-- or                            , branch = '0.1.x',
   	requires = { {'nvim-lua/plenary.nvim'} }
 	}
-  --use({
-	--'luisiacc/gruvbox-baby',
-	-- config = function()
-	--	vim.cmd('colorscheme gruvbox-baby')
-	--end})
   use({
-	'navarasu/onedark.nvim',
+	'luisiacc/gruvbox-baby',
 	config = function()
-	     vim.cmd('colorscheme onedark')
+             vim.cmd('colorscheme gruvbox-baby')
 	end})
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
   use('theprimeagen/harpoon')
