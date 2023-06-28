@@ -1,9 +1,9 @@
 configuration {
   show-icons: true;
-  icon-theme: "Nordzy-dark";
+  icon-theme: "";
   cycle: true;
   disable-history: false;
   modi: "drun";
   display-drun: "apps";
 }
-@import "~/.config/rofi/themes/nord.rasi"
+@import "~/.config/rofi/themes/gruvbox-dark.rasi"
