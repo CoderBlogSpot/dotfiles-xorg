@@ -152,8 +152,8 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
-        { MODKEY|ShiftMask,             XK_s,      spawn,          {.v = shutcmd } },
-        { MODKEY|ShiftMask,             XK_r,      spawn,          {.v = rebootcmd } }, 
+        { MODKEY,                       XK_s,      spawn,          {.v = shutcmd } },
+        { MODKEY,                       XK_r,      spawn,          {.v = rebootcmd } }, 
 };
 
 /* button definitions */
