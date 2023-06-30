@@ -79,6 +79,8 @@ static const Layout layouts[] = {
 /* commands */
 static const char *roficmd[] = { "rofi", "-show", "drun", "-show-icons", NULL };
 static const char *termcmd[]  = { "st", NULL };
+static const char *shutcmd[] = { "sudo", "shutdown", "-h", "now", NULL }; 
+static const char *rebootcmd[] = { "sudo", "reboot", "now", NULL }; 
 
 /*
  * Xresources preferences to load at startup
@@ -150,6 +152,8 @@ static const Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+        { MODKEY|ShiftMask,             XK_s,      spawn,          {.v = shutcmd } },
+        { MODKEY|ShiftMask,             XK_r,      spawn,          {.v = rebootcmd } }, 
 };
 
 /* button definitions */
