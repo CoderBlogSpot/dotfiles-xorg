@@ -10,8 +10,8 @@ static const unsigned int gappov    = 30;       /* vert outer gap between window
 static int smartgaps          = 0;        /* 1 means no outer gap when there is only one window */
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "FiraCode:size=9" };
-static const char dmenufont[]       = "FiraCode:size=9";
+static const char *fonts[]          = { "Fira Code Nerd Font:size=9" };
+static const char dmenufont[]       = "Fira Code Nerd Font:size=9";
 static char normbgcolor[]           = "#222222";
 static char normbordercolor[]       = "#444444";
 static char normfgcolor[]           = "#bbbbbb";
