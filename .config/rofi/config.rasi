@@ -1,6 +1,7 @@
 configuration {
+  font: "Fira Code Nerd Font 10";
   show-icons: true;
-  icon-theme: "";
+  icon-theme: "Gruvbox-Material-Dark";
   cycle: true;
   disable-history: false;
   modi: "drun";
