@@ -79,7 +79,7 @@ static const Layout layouts[] = {
 /* commands */
 static const char *roficmd[] = { "rofi", "-show", "drun", "-show-icons", NULL };
 static const char *termcmd[]  = { "st", NULL };
-static const char *shutcmd[] = { "sudo", "shutdown", "-h", "now", NULL }; 
+static const char *shutcmd[] = { "sudo", "shutdown", "-P", "now", NULL }; 
 static const char *rebootcmd[] = { "sudo", "reboot", "now", NULL }; 
 
 /*
