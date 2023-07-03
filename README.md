@@ -10,8 +10,7 @@ Themes & Icons:
 
 Wallpapers:
 - Get it here -> https://github.com/AngelJumbo/gruvbox-wallpapers
-- cd into gruvbox-wallpapers & move the wallpapers directory to
-- `$HOME/pictures/`.
+- cd into gruvbox-wallpapers & move the wallpapers directory to `$HOME/pictures/`.
 
 Fonts:
 - I use 1 font through out the system called `Fira Code Nerd Font`
@@ -25,20 +24,20 @@ can find on github -> https://github.com/graysky2/pulseaudio-ctl. To
 install it from source, type `make` and then `sudo make install`.
 
 PROGRAMS THAT I USE:
--neovim
--git/curl/wget
--htop/neofetch
--base-devel/libX11-devel/libXft-devel/libXinerama-devel/xorg
--flameshot
--nitrogen/lxappearance
--pulseaudio/pavucontrol/pulseaudio-ctl
--polkit-gnome
--Thunar
--breeze-snow-cursor-theme
--rofi
--google-chrome
--sublime-text-4
--obsidian
+- neovim
+- git/curl/wget
+- htop/neofetch
+- base-devel/libX11-devel/libXft-devel/libXinerama-devel/xorg
+- flameshot
+- nitrogen/lxappearance
+- pulseaudio/pavucontrol/pulseaudio-ctl
+- polkit-gnome
+- Thunar
+- breeze-snow-cursor-theme
+- rofi
+- google-chrome
+- sublime-text-4
+- obsidian
 
 OTHER STUFF:
 
