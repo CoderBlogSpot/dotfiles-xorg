@@ -17,7 +17,7 @@ Fonts:
 - You can download it here -> https://www.nerdfonts.com/font-downloads
 - Extract the zip file and place the folder into `$HOME/.fonts/FiraCode`
 
-To get volume percentage to how install pulseaudio-ctl. On arch it is
+To get volume percentage to show install pulseaudio-ctl. On arch it is
 easy, just type this in your terminal and press enter `yay -S pulseaudio-ctl`.
 If you're on any other linux system install it from source which you 
 can find on github -> https://github.com/graysky2/pulseaudio-ctl. To
