@@ -38,6 +38,13 @@ PROGRAMS THAT I USE:
 - google-chrome
 - sublime-text-4
 - obsidian
+- conky
+- spotify
+- dmenu (suckless.org)
+- slock (suckless.org)
+- dwm (suckless.org)
+- slstatus (suckless.org)
+- st (suckless.org)
 
 OTHER STUFF:
 
