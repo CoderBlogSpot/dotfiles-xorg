@@ -3,7 +3,7 @@
 # Power menu for dwm
 
 options="Lock\nLogout\nReboot\nShutdown"
-chosen=$(echo -e "$options" | dmenu -i -p "Power menu:")
+chosen=$(echo -e "$options" | dmenu -i -p -c "Power menu:")
 
 case "$chosen" in
     "Lock")
