@@ -1,0 +1,21 @@
+DEPENDENCIES
+ bash>4.0
+ bc
+ coreutils
+ gawk
+ grep
+ libpulse
+ pulseaudio>=4.0
+
+BUILDING
+ Setup the via a make.
+
+  $ make
+
+ Running a `make install` as root will distribute the files to
+ the file system. 
+ 
+USE A DISTRO PROVIDED PACKAGE
+ ARCH LINUX
+ Arch users may build the package directly with the provided
+ PKGBUILD: https://aur.archlinux.org/packages/pulseaudio-ctl
