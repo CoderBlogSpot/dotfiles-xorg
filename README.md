@@ -40,8 +40,8 @@ PROGRAMS THAT I USE:
 - obsidian
 - conky
 - spotify
+- i3lock
 - dmenu (suckless.org)
-- slock (suckless.org)
 - dwm (suckless.org)
 - slstatus (suckless.org)
 - st (suckless.org)
