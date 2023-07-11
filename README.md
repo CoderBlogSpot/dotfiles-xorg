@@ -27,7 +27,8 @@ PROGRAMS THAT I USE:
 - neovim
 - git/curl/wget
 - htop/neofetch
-- base-devel/libX11-devel/libXft-devel/libXinerama-devel/xorg
+- base-devel/libX11-devel/libXft-devel/libXinerama-devel/xorg/dbus/elogind
+- lightdm/lightdm-gtk3-greeter
 - flameshot
 - nitrogen/lxappearance
 - pulseaudio/pavucontrol/pulseaudio-ctl
@@ -35,6 +36,8 @@ PROGRAMS THAT I USE:
 - Thunar
 - breeze-snow-cursor-theme
 - rofi
+- kitty
+- xarchiver/zip/unzip
 - google-chrome
 - sublime-text-4
 - obsidian
@@ -44,7 +47,6 @@ PROGRAMS THAT I USE:
 - dmenu (suckless.org)
 - dwm (suckless.org)
 - slstatus (suckless.org)
-- st (suckless.org)
 
 OTHER STUFF:
 
