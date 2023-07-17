@@ -65,6 +65,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_d,      spawn,          {.v = roficmd } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_p,      spawn,          SHCMD("$HOME/.local/bin/powermenu.sh") },
+        { MODKEY,                       XK_F12,    spawn,          SHCMD("dunstify -t 3000 \"$($(echo $HOME)/.local/bin/song_info.sh)\"") },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
