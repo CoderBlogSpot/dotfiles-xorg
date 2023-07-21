@@ -36,17 +36,14 @@ PROGRAMS THAT I USE:
 - Thunar
 - breeze-snow-cursor-theme
 - rofi
-- kitty
 - xarchiver/zip/unzip
 - google-chrome
 - sublime-text-4
 - obsidian
-- conky
-- spotify
-- i3lock
-- dmenu (suckless.org)
+- betterlockscreen
 - dwm (suckless.org)
 - slstatus (suckless.org)
+- st
 
 OTHER STUFF:
 
