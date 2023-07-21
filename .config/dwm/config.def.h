@@ -59,14 +59,14 @@ static const Layout layouts[] = {
 /* commands */
 static const char *roficmd[] = { "rofi", "-show", "drun", "-show-icons", NULL };
 static const char *termcmd[]  = { "st", NULL };
-static const char *powercmd[] = { "/home/scorpion/.local/bin/powermenu.sh", NULL };
+static const char *powercmd[] = { "/bin/sh", "-c", "/home/scorpion/.local/bin/powermenu1.sh", NULL };
 static const char *songinfocmd[] = { "dunstify -t 3000 \"$($(echo $HOME)/.local/bin/song_info.sh)\"", NULL };
 
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_d,      spawn,          {.v = roficmd } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
-	{ MODKEY,                       XK_p,      spawn,          {.v = powercmd } },
+	{ MODKEY,                       XK_x,      spawn,          {.v = powercmd } },
         { MODKEY,                       XK_F12,    spawn,          {.v = songinfocmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
