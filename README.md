@@ -2,6 +2,9 @@
 My personal dotfiles for xorg on VOID LINUX
 - https://repo-default.voidlinux.org/live/current/void-live-x86_64-20221001-base.iso
 
+Nonfree repo on Void Linux:
+- sudo xbps-install -S void-repo-nonfree
+
 Themes & Icons:
 - Get this on github -> https://github.com/TheGreatMcPain/gruvbox-material-gtk
 - cd to gruvbox-material-gtk folder & cp the icons & themes folders
