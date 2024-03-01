@@ -12,7 +12,7 @@ static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#689D6A";
+static const char col_cyan[]        = "#d65d0e";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -20,7 +20,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "(1. term)", "(2. web)", "(3. files)", "(4. music)" };
+static const char *tags[] = { "( 1. )", "( 2. )", "( 3. )", "( 4. )" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -59,7 +59,7 @@ static const Layout layouts[] = {
 /* commands */
 static const char *roficmd[] = { "rofi", "-show", "drun", "-show-icons", NULL };
 static const char *termcmd[]  = { "st", NULL };
-static const char *powercmd[] = { "/bin/sh", "-c", "/home/scorpion/.local/bin/powermenu1.sh", NULL };
+static const char *powercmd[] = { "/bin/sh", "-c", "/home/crhizelle/.local/bin/powermenu1.sh", NULL };
 static const char *songinfocmd[] = { "dunstify -t 3000 \"$($(echo $HOME)/.local/bin/song_info.sh)\"", NULL };
 
 static const Key keys[] = {
